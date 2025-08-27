@@ -1,0 +1,23 @@
+.wrap {
+	display: flex;
+	gap: 8px;
+}
+.input {
+	padding: 10px 12px;
+	border-radius: 10px;
+	border: 1px solid #b9bcc1;
+	background: #f0f1f2;
+	min-width: 280px;
+}
+.btn {
+	padding: 10px 14px;
+	border-radius: 10px;
+	border: 1px solid #c9cbd1;
+	background: #fff;
+	cursor: pointer;
+	font-weight: 600;
+}
+.btn:disabled {
+	opacity: 0.6;
+	cursor: not-allowed;
+}
